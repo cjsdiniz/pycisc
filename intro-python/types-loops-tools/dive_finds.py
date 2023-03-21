@@ -56,8 +56,11 @@ def create_dive_finds(number_dives):
     # calling generate_find() and calculate_number_items() and 
     # then composing and returning the message and numbers.
 
-    raise NotImplementedError()
-
+    # raise NotImplementedError()
+    numitens=calculate_number_items(number_dives)
+    fnd=generate_find()
+    msg="In ",number_dives," dives, you found ",numitens, " ", fnd
+    return msg
 
 def main():
     """Explain the scuba diver game in a command prompt."""
