@@ -59,7 +59,7 @@ def create_dive_finds(number_dives):
     # raise NotImplementedError()
     numitens=calculate_number_items(number_dives)
     fnd=generate_find()
-    msg="In ",number_dives," dives, you found ",numitens, " ", fnd
+    msg="In ", number_dives ," dives, you found ", numitens, " " , fnd
     return msg
 
 def main():
