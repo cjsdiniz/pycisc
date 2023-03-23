@@ -32,6 +32,7 @@ from pprint import pprint
 
 # Get the absolute path for the directory where this file is located "here"
 here = os.path.abspath(os.path.dirname(__file__))
+#here="D:\GitHub\pycisc\intro-python\parsing-json\\"
 
 
 # Read in the JSON text
